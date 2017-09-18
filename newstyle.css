@@ -1,0 +1,12 @@
+p {
+    background-color: yellow;
+}
+
+.nicer {
+    background-color: green;
+    color: white;
+}
+
+.nice {
+    font-weight: bold;
+}
