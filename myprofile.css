@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Dancing+Script');
+
+.my-photo {
+    background-image: url('https://coderinyou.github.io/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.my-arabic-text {
+    color: gold;
+    padding-top: 5px;
+}
+
+.my-para-text {
+    color: white;
+    font-size: 1rem;
+}
+
+.my-button {
+    color: black;
+    background-color: gold;
+}
+
+input[type=submit] {
+    background-color: gold;
+    color: black;
+}
+
+.my-form-label {
+    color: white;
+}
