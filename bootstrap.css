@@ -1,0 +1,27 @@
+/*Imports font from https://fonts.google.com/*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+/*1. Make the background color dark gray: #212121*/
+/*2. Change the font family to: 'lato'*/
+
+.my-body {
+    background-color: gray;
+    font-family: lato;
+}
+    
+
+.card-img-top {
+    border: 2px solid white;
+    vertical-align: top;
+    filter: grayscale(100%)
+}
+
+.card-img-top:hover {
+    filter: grayscale(0%)
+}
+
+.jumbotron {
+    background-image: url("fox.jpg");
+    background-size: cover;
+    background-position: center; 
+    color: white;
+}

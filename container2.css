@@ -17,19 +17,22 @@
     border: 2px solid #aaa;
     background-color: white;
     max-width: 600px;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 1rem;
-    box-shadow: 5px 5px 5px #aaa;
+    box-shadow: 5px 5px 5px #888888;
 }
 
 /*9.  Change text color to: orangered*/
 /*10. Change text decoration to: overline*/
 /*11. Increase the font size to: 4rem*/
 .my-highlight{
-    text-decoration: overline;
+    padding-bottom: 10px;
+    border-top: 4px solid orangered;
+    line-height: 48px;
     font-size: 4rem;
-    color: orangered
+    color: orangered;
 }
 
 /*12. Reduce the width to: 20%*/

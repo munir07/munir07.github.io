@@ -13,17 +13,18 @@
 .my-title {
     font-weight: 900;
     font-size: 4rem;
-    color: white;
+    color: orangered;
+    font: 400 100px/1.3 'Arizonia', Helvetica, sans-serif;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
 }
 /*6. Enlarge the font size to: 1.25rem*/
 /*7. Thicken the font weight to: 400*/
 /*8. Change the text color to: orangered*/
 /*9. Change the background color to: white*/
 .my-subtitle {
-    font-weight: 400;
-    font-size: 1.25rem;
     background-color: white;
     color: orangered;
+    font: 400 130px/3 'Great Vibes', Helvetica, sans-serif;
 }
 /*10. Enlarge the font size to: 3rem*/
 /*11. Thin the font weight to: 100*/
@@ -43,11 +44,28 @@ color: orangered*/
 }
 
 .my-div {
-    max-width: 800px;
+    max-width: 900px;
     border: 2px solid black;
+    background-color: #aaa;
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+    padding: 1rem;
+    box-shadow: 5px 5px 5px #aaa;
+    display: flex;
+    justify-content:space-between;
+}
+    
+
+img {
+    border: 2px solid white;
+    vertical-align: top;
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+    filter: grayscale(100%)
 }
 
-.inner-div {
-    height: auto; 
-    border:1px blue solid
+img:hover {
+    filter: grayscale(0%)
 }
