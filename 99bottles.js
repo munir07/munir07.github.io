@@ -33,7 +33,8 @@ while (numBottles >= 1) {
     } else {
         line1 = numBottles + " bottle of beer on the wall, " + numBottles + " bottle of beer.";
     }
-    console.log(line1);
+    document.write(line1);
+    document.write("<br>");
     numBottles--;
     if (numBottles == 0) {
         line2 = "Go to the store and buy some more, 99 bottles of beer on the wall.";
@@ -43,5 +44,6 @@ while (numBottles >= 1) {
     } else {
         line2 = "Take one down and pass it around, " + numBottles + " bottle of beer on the wall.";
     }
-    console.log(line2);
+    document.write(line2);
+    document.write("<br>");
 }

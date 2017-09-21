@@ -22,7 +22,7 @@ function switchLights() {
     } else {
         lights = 'on'; 
         col = getRandomColor();
-        //background.style = 'padding:50px; background: col';
+        //background.style = 'padding:50px; background: yellow';
     }
     background.style = 'padding:50px; background: ' + col + ';';
     lightsVar.innerHTML = lights + "(" + col + ")";
