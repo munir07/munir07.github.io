@@ -33,19 +33,9 @@ body{
     margin: 1em 0 1em 0;
 }
 
-.my-input{
-    background-color: gray;
-    border-radius: 0;
-    border-width: 0 0 1px 0;
-    border-color: gray;
-    color: white;
-}
-
 .my-btn{
-    border-radius: 0;
     background-color: orangered;
     color: black;
-    font-weight: bold;
 }
 
 .my-arabic-text {
