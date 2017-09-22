@@ -1,0 +1,68 @@
+/**{ border: 1px dotted red;}*/
+body{
+    background-image: url('imran.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: grey;
+    background-position: top left;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.my-full-height{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+.my-intro-panel{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background:rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+.my-thin-hr{
+    width: 100%;
+    border-width: 3px;
+    border-bottom: 0;
+    border-color: gray;
+    margin: 1em 0 1em 0;
+}
+
+.my-input{
+    background-color: transparent;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    border-color: transparent;
+    color: white;
+}
+
+.my-btn{
+    border-radius: 0;
+    background-color: orangered;
+    color: black;
+    font-weight: bold;
+}
+
+.my-arabic-text {
+    color: orangered;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.my-para-text {
+    color: white;
+    font-size: 1rem;
+}
+
+.my-form-label {
+    color: white;
+}
+
+.my-header-text{
+    color: white;
+    padding-bottom: 10px;
+}
+
