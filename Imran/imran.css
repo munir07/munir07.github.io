@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Dancing+Script');
+
 /**{ border: 1px dotted red;}*/
 body{
     background-image: url('imran.jpg');
@@ -59,6 +61,7 @@ body{
 
 .my-form-label {
     color: white;
+    font-family: " Cookie", cursive;
 }
 
 .my-header-text{
